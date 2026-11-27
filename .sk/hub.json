@@ -1,0 +1,17 @@
+{
+  "titulo": "navegador-sk (1)",
+  "arquivo": "hub.html",
+  "itens": [
+    {
+      "path": "index.html",
+      "nome": "Navegador SK",
+      "desc": "",
+      "on": true,
+      "icone": "icons/icon.svg"
+    }
+  ],
+  "sub": "",
+  "logo": "",
+  "tema": "dourado",
+  "links": []
+}

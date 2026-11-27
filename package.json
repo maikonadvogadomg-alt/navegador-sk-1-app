@@ -1,0 +1,51 @@
+{
+  "name": "navegador-sk-1",
+  "version": "1.0.0",
+  "description": "navegador-sk (1)",
+  "author": "Maikon",
+  "private": true,
+  "main": "electron/main.cjs",
+  "portaDoPrograma": 7754,
+  "devDependencies": {
+    "electron": "33.2.1",
+    "electron-builder": "25.1.8"
+  },
+  "build": {
+    "appId": "com.maikonadvogadomgalt.navegadorsk1.pc",
+    "productName": "navegador-sk (1)",
+    "executableName": "navegador-sk-1",
+    "directories": {
+      "output": "release"
+    },
+    "asar": false,
+    "files": [
+      "**/*",
+      "!android/**",
+      "!.github/**",
+      "!release/**",
+      "!exe/**",
+      "!node_modules/.cache/**",
+      "!*.zip",
+      "!.sk/**",
+      "!apk.config.json"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "icons/icon-512.png"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "navegador-sk (1)",
+      "artifactName": "navegador-sk-1-Instalar.exe"
+    },
+    "portable": {
+      "artifactName": "navegador-sk-1-sem-instalar.exe"
+    }
+  }
+}

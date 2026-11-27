@@ -1,0 +1,9 @@
+{
+  "appId": "br.maikon.navegadorsk",
+  "appName": "Navegador SK",
+  "webDir": ".",
+  "server": { "androidScheme": "https" },
+  "plugins": {
+    "CapacitorHttp": { "enabled": true }
+  }
+}
